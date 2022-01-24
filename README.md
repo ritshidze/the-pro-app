@@ -2,6 +2,8 @@
 
 Simple instruction to run this APP.
 
+PHP   >= 7.4.26
+MySQL >= 5.1
 
 1. git clone https://github.com/ritshidze/the-pro-app.git
 
@@ -19,8 +21,8 @@ Simple instruction to run this APP.
     - MAIL_ENCRYPTION=tls
     - MAIL_FROM_ADDRESS=****@gmail.com
 
-4. Run Migration
-5. Run Seeder
+4. Run Migration: php artisan migrate 
+5. Run Seeder: php artisan db:seed
 6. Run the app
 
   - it will take you straight to login
