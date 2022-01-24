@@ -11,13 +11,13 @@ Simple instruction to run this APP.
 2. create a database table 
 3. Setup mailtrap details
 
-    MAIL_MAILER=smtp
-    MAIL_HOST=smtp.mailtrap.io
-    MAIL_PORT=2525
-    MAIL_USERNAME=********
-    MAIL_PASSWORD=********
-    MAIL_ENCRYPTION=tls
-    MAIL_FROM_ADDRESS=****@gmail.com
+    - MAIL_MAILER=smtp
+    - MAIL_HOST=smtp.mailtrap.io
+    - MAIL_PORT=2525
+    - MAIL_USERNAME=********
+    - MAIL_PASSWORD=********
+    - MAIL_ENCRYPTION=tls
+    - MAIL_FROM_ADDRESS=****@gmail.com
 
 4. Run Migration
 5. Run Seeder
@@ -26,4 +26,4 @@ Simple instruction to run this APP.
   - it will take you straight to login
   - use email: john@doe.com and password: mypassword
 
-7. Land in Dashbore. Create people and stuff.  
+7. Land in Dashbored. Create people and stuff.  
